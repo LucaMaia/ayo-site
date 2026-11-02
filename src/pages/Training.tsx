@@ -35,10 +35,6 @@ export default function Training() {
             começa <em>aqui.</em>
           </h2>
           <TrainingSchedule />
-          <div className="teacher-note">
-            <span>Com</span>
-            <strong>{SITE_CONFIG.responsavel}</strong>
-          </div>
           <p className="training-note">
             Nunca praticou? Não tem problema. As informações sobre como
             participar podem ser solicitadas pelo canal de contato do grupo.

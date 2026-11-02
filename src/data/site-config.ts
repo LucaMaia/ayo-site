@@ -3,7 +3,7 @@ export const SITE_CONFIG = {
   responsavel: "Mestra Michelinha",
   diasTreino: [] as string[],
   whatsappNumero: "",
-  instagram: "",
+  instagram: "https://www.instagram.com/ayocapoeira_/",
   facebook: "",
   youtube: "",
   localizacao: "",

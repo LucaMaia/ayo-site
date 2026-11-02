@@ -1,7 +1,7 @@
 export const SITE_CONFIG = {
   horario: "18h30 às 19h30",
   responsavel: "Mestra Michelinha",
-  diasTreino: [] as string[],
+  diasTreino: ["Segunda", "Quarta", "Sexta"],
   whatsappNumero: "",
   instagram: "https://www.instagram.com/ayocapoeira_/",
   facebook: "",

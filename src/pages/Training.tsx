@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import TrainingSchedule from "../components/TrainingSchedule";
-import { SITE_CONFIG, getWhatsAppLink } from "../data/site-config";
+import { getWhatsAppLink } from "../data/site-config";
 
 export default function Training() {
   const whatsapp = getWhatsAppLink("Olá! Gostaria de informações sobre os treinos de capoeira.");

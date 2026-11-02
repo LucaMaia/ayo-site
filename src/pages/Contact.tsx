@@ -18,8 +18,8 @@ export default function Contact() {
           também <em>começa aqui.</em>
         </h1>
         <p>
-          Quer conhecer os treinos ou saber mais sobre o Ayo? Em breve, nossos
-          canais de contato estarão disponíveis nesta página.
+          Quer conhecer os treinos ou saber mais sobre o Ayo? Fale com a Mestra
+          Michelinha e tire suas dúvidas.
         </p>
       </section>
       <section className="contact-options page-width" id="redes">
@@ -36,7 +36,7 @@ export default function Contact() {
               target="_blank"
               rel="noreferrer"
             >
-              Fale com o Ayo <span aria-hidden="true">↗</span>
+              Fale com a Mestra Michelinha <span aria-hidden="true">↗</span>
             </a>
           ) : (
             <p className="contact-unavailable">

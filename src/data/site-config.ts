@@ -2,7 +2,7 @@ export const SITE_CONFIG = {
   horario: "18h30 às 19h30",
   responsavel: "Mestra Michelinha",
   diasTreino: ["Segunda", "Quarta", "Sexta"],
-  whatsappNumero: "",
+  whatsappNumero: "5561992037974",
   instagram: "https://www.instagram.com/ayocapoeira_/",
   facebook: "",
   youtube: "",
@@ -27,7 +27,9 @@ export const FOTOGRAFIAS = [
   },
 ];
 
-export function getWhatsAppLink(message = "Olá! Gostaria de saber mais sobre o Ayo Capoeira.") {
+export function getWhatsAppLink(
+  message = "Olá, Mestra Michelinha, gostaria de mais informações sobre suas aulas de capoeira.",
+) {
   const numero = SITE_CONFIG.whatsappNumero.replace(/\D/g, "");
   return numero
     ? `https://wa.me/${numero}?text=${encodeURIComponent(message)}`

@@ -19,7 +19,9 @@ npm run dev
 - **Eventos:** edite `src/data/events.ts`. Adicione objetos a `EVENTOS`, coloque
   banners em `public/assets/images/eventos/` e use o caminho público da imagem
   (por exemplo, `/assets/images/eventos/nome-do-evento.jpg`). O mesmo array
-  alimenta a agenda e os destaques da página inicial. Um evento sem `link` não
+  alimenta a agenda e os próximos eventos da página inicial. Use `destaque:
+  true` para sinalizar um evento importante, `visivel: false` para ocultá-lo
+  temporariamente e remova o objeto para excluí-lo. Um evento sem `link` não
   mostra botão.
 - **Contato, horários e redes sociais:** edite `src/data/site-config.ts`.
   Informe os dias em `diasTreino`, o telefone internacional em

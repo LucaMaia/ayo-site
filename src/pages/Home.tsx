@@ -34,7 +34,7 @@ export default function Home() {
               Conheça os treinos
             </Link>
             <Link className="hero-text-link" to="/grupo">
-              Descubra o grupo <span aria-hidden="true">→</span>
+              Descubra o grupo
             </Link>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function Home() {
               convite para aprender, compartilhar e fazer parte de uma cultura
               que segue viva.
             </p>
-            <Link className="text-link" to="/grupo">
+            <Link className="button button-ghost" to="/grupo">
               Conheça o Ayô
             </Link>
           </div>
@@ -95,7 +95,7 @@ export default function Home() {
               <span className="eyebrow">A roda continua</span>
               <h2 className="display-heading">Próximos encontros</h2>
             </div>
-            <Link className="text-link" to="/eventos">
+            <Link className="text-link events-all-link" to="/eventos">
               Todos os eventos
             </Link>
           </div>
@@ -111,7 +111,7 @@ export default function Home() {
                 ✳
               </span>
               <p>Novos encontros serão anunciados em breve.</p>
-              <Link className="text-link" to="/eventos">
+              <Link className="button button-ghost" to="/eventos">
                 Acompanhe a agenda <span aria-hidden="true">→</span>
               </Link>
             </div>
@@ -142,7 +142,7 @@ export default function Home() {
               história da Mestra Michelinha. Em breve, mais sobre quem conduz
               nossos treinos.
             </p>
-            <Link className="text-link" to="/treinos">
+            <Link className="button button-ghost" to="/treinos">
               Sobre as aulas
             </Link>
           </div>

@@ -50,7 +50,7 @@ export default function Training() {
               Fale pelo WhatsApp
             </a>
           ) : (
-            <Link className="text-link" to="/contato">
+            <Link className="button button-ghost" to="/contato">
               Consulte os canais de contato
             </Link>
           )}

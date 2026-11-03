@@ -52,7 +52,7 @@ export default function Contact() {
             <div className="social-links">
               {redes.map((rede) => (
                 <a
-                  className="text-link"
+                  className="button button-ghost"
                   href={rede.url}
                   key={rede.label}
                   target="_blank"

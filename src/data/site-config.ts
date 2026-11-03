@@ -1,5 +1,5 @@
 export const SITE_CONFIG = {
-  horario: "18h30 às 19h30",
+  horario: "18h30 às 20h00",
   responsavel: "Mestra Michelinha",
   diasTreino: ["Segunda", "Quarta", "Sexta"],
   whatsappNumero: "5561992037974",

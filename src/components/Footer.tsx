@@ -35,7 +35,13 @@ export default function Footer() {
           <span className="eyebrow">Conecte-se</span>
           <Link to="/contato">Contato</Link>
           {redes.map((rede) => (
-            <a key={rede.label} href={rede.url} target="_blank" rel="noreferrer">
+            <a
+              className={rede.label === "Instagram" ? undefined : "button button-ghost footer-social-button"}
+              key={rede.label}
+              href={rede.url}
+              target="_blank"
+              rel="noreferrer"
+            >
               {rede.label}
             </a>
           ))}

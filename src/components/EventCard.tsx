@@ -26,7 +26,7 @@ export default function EventCard({ evento }: EventCardProps) {
         <p>{evento.descricao}</p>
         {evento.link && (
           <a
-            className="text-link"
+            className="button button-ghost"
             href={evento.link}
             target={evento.link.startsWith("http") ? "_blank" : undefined}
             rel={evento.link.startsWith("http") ? "noreferrer" : undefined}

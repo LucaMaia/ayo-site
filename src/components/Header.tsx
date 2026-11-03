@@ -101,7 +101,6 @@ export default function Header() {
                 rel="noreferrer"
               >
                 <InstagramIcon />
-                Instagram <span aria-hidden="true">↗</span>
               </a>
             )}
             <NavLink
@@ -123,8 +122,6 @@ export default function Header() {
           rel="noreferrer"
         >
           <InstagramIcon />
-          <span>Instagram</span>
-          <span aria-hidden="true">↗</span>
         </a>
       )}
     </>

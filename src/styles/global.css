@@ -173,16 +173,14 @@ img {
 }
 
 .main-navigation .nav-social {
-  min-height: 42px;
-  padding: 0 15px;
+  width: 42px;
+  height: 42px;
   display: inline-flex;
+  justify-content: center;
   align-items: center;
-  gap: 8px;
   border: 1px solid rgb(254 160 0 / 65%);
-  border-radius: 999px;
+  border-radius: 50%;
   color: var(--ink);
-  font-size: 11px;
-  font-weight: 700;
   transition: color 180ms ease, background 180ms ease, border-color 180ms ease;
 }
 
@@ -200,10 +198,6 @@ img {
 
 .nav-social:hover svg {
   color: var(--ink);
-}
-
-.nav-social > span {
-  margin-left: 2px;
 }
 
 .mobile-instagram {
@@ -1296,19 +1290,16 @@ img {
     z-index: 20;
     right: 16px;
     bottom: calc(16px + env(safe-area-inset-bottom, 0px));
-    min-height: 52px;
-    padding: 0 19px;
+    width: 56px;
+    height: 56px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     border: 1px solid rgb(255 255 255 / 22%);
-    border-radius: 999px;
+    border-radius: 50%;
     color: var(--ink);
     background: var(--orange);
     box-shadow: 0 8px 26px rgb(26 24 20 / 24%);
-    font-size: 13px;
-    font-weight: 700;
     transition: transform 180ms ease, background 180ms ease;
   }
 

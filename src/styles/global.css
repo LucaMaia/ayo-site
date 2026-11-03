@@ -652,6 +652,7 @@ img {
   justify-content: center;
   align-items: center;
   border: 1px solid #ded9ce;
+  border-radius: 14px;
   text-align: center;
 }
 

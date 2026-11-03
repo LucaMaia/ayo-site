@@ -43,9 +43,6 @@ export default function Contact() {
           )}
         </article>
         <article className="contact-option">
-          <span className="contact-icon" aria-hidden="true">
-            ✳
-          </span>
           <span className="eyebrow">Acompanhe</span>
           <h2>Redes sociais</h2>
           {redes.length > 0 ? (

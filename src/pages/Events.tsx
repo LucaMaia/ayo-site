@@ -26,9 +26,6 @@ export default function Events() {
           </div>
         ) : (
           <div className="events-empty-state">
-            <span className="empty-mark" aria-hidden="true">
-              ✳
-            </span>
             <div>
               <span className="eyebrow">Agenda em movimento</span>
               <h2>Novos encontros em breve.</h2>

@@ -107,9 +107,6 @@ export default function Home() {
             </div>
           ) : (
             <div className="empty-events">
-              <span className="empty-mark" aria-hidden="true">
-                ✳
-              </span>
               <p>Novos encontros serão anunciados em breve.</p>
               <Link className="button button-ghost" to="/eventos">
                 Acompanhe a agenda <span aria-hidden="true">→</span>

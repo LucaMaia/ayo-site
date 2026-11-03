@@ -200,7 +200,24 @@ img {
   color: var(--ink);
 }
 
-.mobile-instagram {
+.main-navigation .nav-whatsapp {
+  border-color: rgb(37 211 102 / 50%);
+}
+
+.nav-whatsapp svg {
+  color: #128c48;
+}
+
+.main-navigation .nav-whatsapp:hover {
+  border-color: #25d366;
+  background: #e8f8ee;
+}
+
+.nav-whatsapp:hover svg {
+  color: #128c48;
+}
+
+.mobile-socials {
   display: none;
 }
 
@@ -1285,11 +1302,16 @@ img {
     display: none;
   }
 
-  .mobile-instagram {
+  .mobile-socials {
     position: fixed;
     z-index: 20;
     right: 16px;
     bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    display: flex;
+    gap: 10px;
+  }
+
+  .mobile-social {
     width: 56px;
     height: 56px;
     display: inline-flex;
@@ -1303,12 +1325,28 @@ img {
     transition: transform 180ms ease, background 180ms ease;
   }
 
-  .mobile-instagram:hover {
+  .mobile-social:hover {
     transform: translateY(-2px);
+  }
+
+  .mobile-instagram {
+    background: var(--orange);
+  }
+
+  .mobile-instagram:hover {
     background: #ffb32f;
   }
 
-  .mobile-instagram svg {
+  .mobile-whatsapp {
+    color: #fff;
+    background: #168a4a;
+  }
+
+  .mobile-whatsapp:hover {
+    background: #11743d;
+  }
+
+  .mobile-social svg {
     width: 20px;
     height: 20px;
   }

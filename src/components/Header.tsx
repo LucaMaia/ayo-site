@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { SITE_CONFIG } from "../data/site-config";
+import { getWhatsAppLink, SITE_CONFIG } from "../data/site-config";
 
 const links = [
   { to: "/", label: "Início", end: true },
@@ -39,8 +39,31 @@ function InstagramIcon() {
   );
 }
 
+function WhatsAppIcon() {
+  return (
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M20 11.6a8 8 0 0 1-11.8 7L4 20l1.4-4.1A8 8 0 1 1 20 11.6Z"
+        stroke="currentColor"
+        strokeWidth="1.7"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M9 8.5c.3-.5.6-.5.9-.5.2 0 .4 0 .6.5l.7 1.5c.1.3.1.5-.1.7l-.5.6c-.2.2-.2.4 0 .7.5.8 1.2 1.4 2 1.8.3.1.5.1.7-.1l.7-.8c.2-.2.4-.2.7-.1l1.4.7c.3.1.4.3.4.6-.1.5-.4 1-.8 1.3-.5.4-1.1.5-1.7.4-1-.2-2.2-.8-3.4-1.8-1-.8-1.7-1.9-2-2.8-.3-.8-.2-1.7.4-2.7Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
+
 export default function Header() {
   const [menuAberto, setMenuAberto] = useState(false);
+  const whatsapp = getWhatsAppLink();
 
   return (
     <>
@@ -103,6 +126,17 @@ export default function Header() {
                 <InstagramIcon />
               </a>
             )}
+            {whatsapp && (
+              <a
+                aria-label="Fale com a Mestra Michelinha pelo WhatsApp"
+                className="nav-social nav-whatsapp"
+                href={whatsapp}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <WhatsAppIcon />
+              </a>
+            )}
             <NavLink
               className="nav-cta"
               to="/treinos"
@@ -113,16 +147,31 @@ export default function Header() {
           </nav>
         </div>
       </header>
-      {SITE_CONFIG.instagram && (
-        <a
-          aria-label="Acompanhe o Ayô Capoeira no Instagram"
-          className="mobile-instagram"
-          href={SITE_CONFIG.instagram}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <InstagramIcon />
-        </a>
+      {(SITE_CONFIG.instagram || whatsapp) && (
+        <div className="mobile-socials" aria-label="Contatos rápidos">
+          {SITE_CONFIG.instagram && (
+            <a
+              aria-label="Acompanhe o Ayô Capoeira no Instagram"
+              className="mobile-social mobile-instagram"
+              href={SITE_CONFIG.instagram}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <InstagramIcon />
+            </a>
+          )}
+          {whatsapp && (
+            <a
+              aria-label="Fale com a Mestra Michelinha pelo WhatsApp"
+              className="mobile-social mobile-whatsapp"
+              href={whatsapp}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <WhatsAppIcon />
+            </a>
+          )}
+        </div>
       )}
     </>
   );

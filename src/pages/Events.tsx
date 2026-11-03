@@ -1,21 +1,22 @@
 import EventCard from "../components/EventCard";
+import PageIntro from "../components/PageIntro";
 import { EVENTOS_VISIVEIS } from "../data/events";
 
 export default function Events() {
   return (
     <div className="page-shell">
-      <section className="page-intro page-width">
-        <span className="eyebrow">Agenda Ayô</span>
-        <h1 className="display-heading">
+      <PageIntro
+        eyebrow="Agenda Ayô"
+        number="01"
+        title={
+          <>
           A capoeira
           <br />
           também se <em>celebra.</em>
-        </h1>
-        <p>
-          Rodas, encontros e momentos para viver a cultura da capoeira junto
-          com a comunidade.
-        </p>
-      </section>
+          </>
+        }
+        description="Rodas, encontros e momentos para viver a cultura da capoeira junto com a comunidade."
+      />
       <section className="page-width events-page-list">
         {EVENTOS_VISIVEIS.length > 0 ? (
           <div className="event-grid">

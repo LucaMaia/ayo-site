@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PageIntro from "../components/PageIntro";
 import TrainingSchedule from "../components/TrainingSchedule";
 import { getWhatsAppLink } from "../data/site-config";
 
@@ -7,18 +8,18 @@ export default function Training() {
 
   return (
     <div className="page-shell">
-      <section className="page-intro page-width">
-        <span className="eyebrow">Treinos Ayô</span>
-        <h1 className="display-heading">
+      <PageIntro
+        eyebrow="Treinos Ayô"
+        number="03"
+        title={
+          <>
           O primeiro
           <br />
           passo é <em>chegar.</em>
-        </h1>
-        <p>
-          Um espaço para aprender capoeira, conhecer a roda e descobrir novos
-          movimentos no seu próprio ritmo.
-        </p>
-      </section>
+          </>
+        }
+        description="Um espaço para aprender capoeira, conhecer a roda e descobrir novos movimentos no seu próprio ritmo."
+      />
       <section className="training-page-main page-width">
         <div className="training-page-image">
           <img

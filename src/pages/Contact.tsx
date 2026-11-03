@@ -1,4 +1,5 @@
 import { SITE_CONFIG, getWhatsAppLink } from "../data/site-config";
+import PageIntro from "../components/PageIntro";
 
 export default function Contact() {
   const whatsapp = getWhatsAppLink();
@@ -10,18 +11,18 @@ export default function Contact() {
 
   return (
     <div className="page-shell contact-page">
-      <section className="contact-intro page-width">
-        <span className="eyebrow">Contato</span>
-        <h1 className="display-heading">
+      <PageIntro
+        eyebrow="Contato"
+        number="04"
+        title={
+          <>
           A conversa
           <br />
           também <em>começa aqui.</em>
-        </h1>
-        <p>
-          Quer conhecer os treinos ou saber mais sobre o Ayô? Fale com a Mestra
-          Michelinha e tire suas dúvidas.
-        </p>
-      </section>
+          </>
+        }
+        description="Quer conhecer os treinos ou saber mais sobre o Ayô? Fale com a Mestra Michelinha e tire suas dúvidas."
+      />
       <section className="contact-options page-width" id="redes">
         <article className="contact-option">
           <span className="contact-icon" aria-hidden="true">

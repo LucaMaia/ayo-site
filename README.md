@@ -14,6 +14,15 @@ npm run dev
 `npm run build` executa a checagem de TypeScript e gera a versão de produção em
 `dist/`.
 
+## Estrutura
+
+- `src/pages/` contém as cinco páginas independentes.
+- `src/components/` reúne navegação, rodapé, agenda, cartões de evento e o
+  cabeçalho editorial reutilizável das páginas internas (`PageIntro.tsx`).
+- `src/data/` centraliza eventos e informações de contato e treinos.
+- `src/styles/global.css` contém o sistema visual responsivo compartilhado.
+- `public/assets/` guarda a identidade visual e as fotografias.
+
 ## Conteúdo
 
 - **Eventos:** edite `src/data/events.ts`. Adicione objetos a `EVENTOS`, coloque

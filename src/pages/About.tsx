@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PageIntro from "../components/PageIntro";
 
 const temas = [
   {
@@ -24,18 +25,18 @@ const temas = [
 export default function About() {
   return (
     <div className="page-shell">
-      <section className="page-intro page-width">
-        <span className="eyebrow">O grupo</span>
-        <h1 className="display-heading">
+      <PageIntro
+        eyebrow="O grupo"
+        number="02"
+        title={
+          <>
           Uma cultura
           <br />
           feita de <em>encontros.</em>
-        </h1>
-        <p>
-          O Ayô Capoeira é um espaço de movimento, música e troca. Esta página
-          reúne a história do grupo — contada por quem faz parte dela.
-        </p>
-      </section>
+          </>
+        }
+        description="O Ayô Capoeira é um espaço de movimento, música e troca. Esta página reúne a história do grupo — contada por quem faz parte dela."
+      />
 
       <section className="about-image page-width">
         <img

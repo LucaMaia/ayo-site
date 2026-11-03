@@ -47,11 +47,11 @@ export default function Training() {
               target="_blank"
               rel="noreferrer"
             >
-              Fale pelo WhatsApp <span aria-hidden="true">↗</span>
+              Fale pelo WhatsApp
             </a>
           ) : (
             <Link className="text-link" to="/contato">
-              Consulte os canais de contato <span aria-hidden="true">↗</span>
+              Consulte os canais de contato
             </Link>
           )}
         </div>

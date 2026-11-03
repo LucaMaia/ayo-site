@@ -70,9 +70,6 @@ export default function About() {
                 <h3>{tema.titulo}</h3>
                 <p>{tema.texto}</p>
               </div>
-              <span className="about-list-arrow" aria-hidden="true">
-                ↗
-              </span>
             </article>
           ))}
         </div>
@@ -87,7 +84,7 @@ export default function About() {
             lugar para você.
           </h2>
           <Link className="button button-gold" to="/treinos">
-            Conheça os treinos <span aria-hidden="true">↗</span>
+            Conheça os treinos
           </Link>
         </div>
       </section>

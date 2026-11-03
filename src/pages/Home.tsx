@@ -31,7 +31,7 @@ export default function Home() {
           </p>
           <div className="hero-actions">
             <Link className="button button-gold" to="/treinos">
-              Conheça os treinos <span aria-hidden="true">↗</span>
+              Conheça os treinos
             </Link>
             <Link className="hero-text-link" to="/grupo">
               Descubra o grupo <span aria-hidden="true">→</span>
@@ -61,7 +61,7 @@ export default function Home() {
               que segue viva.
             </p>
             <Link className="text-link" to="/grupo">
-              Conheça o Ayô <span aria-hidden="true">↗</span>
+              Conheça o Ayô
             </Link>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function Home() {
               descubra a capoeira no seu tempo.
             </p>
             <Link className="button button-outline" to="/treinos">
-              Saiba sobre os treinos <span aria-hidden="true">↗</span>
+              Saiba sobre os treinos
             </Link>
           </div>
           <TrainingSchedule compact />
@@ -96,7 +96,7 @@ export default function Home() {
               <h2 className="display-heading">Próximos encontros</h2>
             </div>
             <Link className="text-link" to="/eventos">
-              Todos os eventos <span aria-hidden="true">↗</span>
+              Todos os eventos
             </Link>
           </div>
           {proximosEventos.length > 0 ? (
@@ -143,7 +143,7 @@ export default function Home() {
               nossos treinos.
             </p>
             <Link className="text-link" to="/treinos">
-              Sobre as aulas <span aria-hidden="true">↗</span>
+              Sobre as aulas
             </Link>
           </div>
           <div className="teacher-seal" aria-hidden="true">

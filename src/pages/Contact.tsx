@@ -25,9 +25,6 @@ export default function Contact() {
       />
       <section className="contact-options page-width" id="redes">
         <article className="contact-option">
-          <span className="contact-icon" aria-hidden="true">
-            ↗
-          </span>
           <span className="eyebrow">Mensagem direta</span>
           <h2>WhatsApp</h2>
           {whatsapp ? (
@@ -37,7 +34,7 @@ export default function Contact() {
               target="_blank"
               rel="noreferrer"
             >
-              Fale com a Mestra Michelinha <span aria-hidden="true">↗</span>
+              Fale com a Mestra Michelinha
             </a>
           ) : (
             <p className="contact-unavailable">
@@ -61,7 +58,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {rede.label} <span aria-hidden="true">↗</span>
+                  {rede.label}
                 </a>
               ))}
             </div>

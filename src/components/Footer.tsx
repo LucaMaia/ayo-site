@@ -36,7 +36,7 @@ export default function Footer() {
           <Link to="/contato">Contato</Link>
           {redes.map((rede) => (
             <a key={rede.label} href={rede.url} target="_blank" rel="noreferrer">
-              {rede.label} ↗
+              {rede.label}
             </a>
           ))}
           {redes.length === 0 && <span className="footer-muted">Redes sociais em breve</span>}

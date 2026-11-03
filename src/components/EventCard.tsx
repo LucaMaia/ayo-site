@@ -31,7 +31,7 @@ export default function EventCard({ evento }: EventCardProps) {
             target={evento.link.startsWith("http") ? "_blank" : undefined}
             rel={evento.link.startsWith("http") ? "noreferrer" : undefined}
           >
-            {evento.textoBotao} <span aria-hidden="true">↗</span>
+            {evento.textoBotao}
           </a>
         )}
       </div>

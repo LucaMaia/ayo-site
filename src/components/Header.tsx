@@ -142,7 +142,7 @@ export default function Header() {
               to="/treinos"
               onClick={() => setMenuAberto(false)}
             >
-              Venha treinar <span aria-hidden="true">↗</span>
+              Venha treinar
             </NavLink>
           </nav>
         </div>

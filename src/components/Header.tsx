@@ -16,14 +16,14 @@ export default function Header() {
     <header className="site-header">
       <div className="header-inner">
         <NavLink
-          aria-label="Ayo Capoeira — página inicial"
+          aria-label="Ayô Capoeira — página inicial"
           className="brand"
           to="/"
           onClick={() => setMenuAberto(false)}
         >
           <img
             src="/assets/logo/ayo-capoeira-oficial.svg"
-            alt="Ayo Capoeira"
+            alt="Ayô Capoeira"
             width="64"
             height="64"
           />

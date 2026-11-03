@@ -11,10 +11,10 @@ export default function Footer() {
   return (
     <footer className="site-footer">
       <div className="footer-main">
-        <Link aria-label="Ayo Capoeira — início" className="footer-brand" to="/">
+        <Link aria-label="Ayô Capoeira — início" className="footer-brand" to="/">
           <img
             src="/assets/logo/ayo-capoeira-branca.svg"
-            alt="Ayo Capoeira"
+            alt="Ayô Capoeira"
             width="130"
             height="130"
             loading="lazy"
@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <span>© {new Date().getFullYear()} Ayo Capoeira</span>
+        <span>© {new Date().getFullYear()} Ayô Capoeira</span>
         <span className="photo-credits">
           Fotografias:{" "}
           {FOTOGRAFIAS.map((foto, index) => (

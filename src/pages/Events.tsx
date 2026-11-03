@@ -5,7 +5,7 @@ export default function Events() {
   return (
     <div className="page-shell">
       <section className="page-intro page-width">
-        <span className="eyebrow">Agenda Ayo</span>
+        <span className="eyebrow">Agenda Ayô</span>
         <h1 className="display-heading">
           A capoeira
           <br />

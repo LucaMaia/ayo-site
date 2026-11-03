@@ -5,7 +5,7 @@ const temas = [
     numero: "01",
     titulo: "Nossa história",
     texto:
-      "Este espaço está reservado para contar a história do Ayo Capoeira, com as palavras e memórias do próprio grupo.",
+      "Este espaço está reservado para contar a história do Ayô Capoeira, com as palavras e memórias do próprio grupo.",
   },
   {
     numero: "02",
@@ -17,7 +17,7 @@ const temas = [
     numero: "03",
     titulo: "Trajetória",
     texto:
-      "Um registro dos caminhos percorridos, das rodas, apresentações e atividades culturais do Ayo.",
+      "Um registro dos caminhos percorridos, das rodas, apresentações e atividades culturais do Ayô.",
   },
 ];
 
@@ -32,7 +32,7 @@ export default function About() {
           feita de <em>encontros.</em>
         </h1>
         <p>
-          O Ayo Capoeira é um espaço de movimento, música e troca. Esta página
+          O Ayô Capoeira é um espaço de movimento, música e troca. Esta página
           reúne a história do grupo — contada por quem faz parte dela.
         </p>
       </section>
@@ -50,7 +50,7 @@ export default function About() {
 
       <section className="about-values page-width">
         <div className="about-values-heading">
-          <span className="eyebrow">A identidade do Ayo</span>
+          <span className="eyebrow">A identidade do Ayô</span>
           <h2 className="display-heading">
             Em construção,
             <br />

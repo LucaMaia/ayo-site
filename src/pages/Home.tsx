@@ -27,7 +27,7 @@ export default function Home() {
           </h1>
           <p>
             Uma expressão viva de cultura, musicalidade e comunidade.
-            Entre na roda com o Ayo Capoeira.
+            Entre na roda com o Ayô Capoeira.
           </p>
           <div className="hero-actions">
             <Link className="button button-gold" to="/treinos">
@@ -38,7 +38,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <span className="hero-index">01 — AYO CAPOEIRA</span>
+        <span className="hero-index">01 — AYÔ CAPOEIRA</span>
         <a className="hero-scroll" href="#encontro">
           <span /> Role para explorar
         </a>
@@ -56,12 +56,12 @@ export default function Home() {
           </div>
           <div className="intro-copy">
             <p>
-              Capoeira é jogo, música e troca. No Ayo, cada movimento é um
+              Capoeira é jogo, música e troca. No Ayô, cada movimento é um
               convite para aprender, compartilhar e fazer parte de uma cultura
               que segue viva.
             </p>
             <Link className="text-link" to="/grupo">
-              Conheça o Ayo <span aria-hidden="true">↗</span>
+              Conheça o Ayô <span aria-hidden="true">↗</span>
             </Link>
           </div>
         </div>

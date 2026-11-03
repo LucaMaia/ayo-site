@@ -1,4 +1,4 @@
-# Ayo Capoeira
+# Ayô Capoeira
 
 Site institucional em React, TypeScript e Vite. As rotas são Início (`/`),
 Eventos (`/eventos`), O grupo (`/grupo`), Treinos (`/treinos`) e Contato

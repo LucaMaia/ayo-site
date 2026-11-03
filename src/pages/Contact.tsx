@@ -18,7 +18,7 @@ export default function Contact() {
           também <em>começa aqui.</em>
         </h1>
         <p>
-          Quer conhecer os treinos ou saber mais sobre o Ayo? Fale com a Mestra
+          Quer conhecer os treinos ou saber mais sobre o Ayô? Fale com a Mestra
           Michelinha e tire suas dúvidas.
         </p>
       </section>

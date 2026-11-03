@@ -15,29 +15,29 @@ function ScrollToTop() {
     window.scrollTo({ top: 0, behavior: "instant" });
     const metadata: Record<string, { title: string; description: string }> = {
       "/": {
-        title: "Ayo Capoeira — Cultura em movimento",
+        title: "Ayô Capoeira — Cultura em movimento",
         description:
-          "Conheça o Ayo Capoeira: cultura, movimento, treinos e próximos encontros.",
+          "Conheça o Ayô Capoeira: cultura, movimento, treinos e próximos encontros.",
       },
       "/eventos": {
-        title: "Eventos — Ayo Capoeira",
+        title: "Eventos — Ayô Capoeira",
         description:
-          "Confira rodas, encontros e eventos do Ayo Capoeira.",
+          "Confira rodas, encontros e eventos do Ayô Capoeira.",
       },
       "/grupo": {
-        title: "O grupo — Ayo Capoeira",
+        title: "O grupo — Ayô Capoeira",
         description:
-          "Conheça o Ayo Capoeira e acompanhe a história do grupo.",
+          "Conheça o Ayô Capoeira e acompanhe a história do grupo.",
       },
       "/treinos": {
-        title: "Treinos — Ayo Capoeira",
+        title: "Treinos — Ayô Capoeira",
         description:
           "Saiba mais sobre os treinos de capoeira com a Mestra Michelinha.",
       },
       "/contato": {
-        title: "Contato — Ayo Capoeira",
+        title: "Contato — Ayô Capoeira",
         description:
-          "Encontre os canais de contato e redes sociais do Ayo Capoeira.",
+          "Encontre os canais de contato e redes sociais do Ayô Capoeira.",
       },
     };
     const page = metadata[pathname] ?? metadata["/"];

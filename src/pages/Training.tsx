@@ -8,7 +8,7 @@ export default function Training() {
   return (
     <div className="page-shell">
       <section className="page-intro page-width">
-        <span className="eyebrow">Treinos Ayo</span>
+        <span className="eyebrow">Treinos Ayô</span>
         <h1 className="display-heading">
           O primeiro
           <br />
